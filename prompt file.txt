@@ -1,11 +1,1 @@
-GRE-ADMISSION-MAIN
-├── Model_Scaler
-│   ├── ann_model.h5
-│   ├── lr_model.pkl
-│   ├── rf_model.pkl
-│   ├── scaler.pkl
-│   ├── xgb_model.pkl
-├── app.py
-├── dataset.csv
-├── GRE_Admission_Prediction.ipynb
-├── requirements.txt
+web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
